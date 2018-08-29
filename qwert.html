@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 45%;
+    padding: 10px;
+}
+.column1 {
+    float: left;
+    width: 90%;
+    padding: 10px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 900px) {
+    .column  {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column  {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column1" >
+    <h2><span class="label label-default">Experiment 34 My profile</span></h2>
+   
+  </div>
+  <div class="column" >
+     <img src="1.jpg" class="img-circle" alt="Cinque Terre" width="304" height="200" align=- "center"> 
+  </div>
+ 
+  <div class="column" >
+    <div class="table-responsive" table-striped>          
+  <table class="table" border= 2>
+      <tr>
+        <td>Name</td>
+        <td>ABC</td>
+      </tr>
+ <tr>
+        <td>Mobile Number</td>
+        <td>45678</td>
+      </tr>
+ <tr>
+        <td>Address</td>
+        <td>qw23</td>
+      </tr>
+    
+  </table>
+  </div>
+
+  </div>
+</div>
+
+</body>
+</html>
+

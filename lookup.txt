@@ -1,0 +1,3 @@
+<span align="right"  style="background-color:#AED6F1  ;">
+<a href="#" onclick=fun1() style="color:black; text-decoration:none; font-size:8pt;">NORTH INDIA  &nbsp</a><a href="#" style="color:black;text-decoration:none; font-size:8pt;"> &nbspEAST INDIA  &nbsp</a><a href="#" style="color:black;text-decoration:none; font-size:8pt;"> &nbspWEST INDIA  &nbsp</a><a href="#" style="color:black;text-decoration:none; font-size:8pt;"> &nbspSOUTH INDIA  &nbsp</a><a href="#" style="color:black;text-decoration:none; font-size:8pt;"> &nbspNORTHEAST INDIA  &nbsp</a>
+<span>
